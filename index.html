@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Pizza Store</title>
+</head>
+<body>
+        <div class="container-fluid">
+            <!-- Header containing navbar -->
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #e3f2fd;">
+                    <div class="container-fluid">
+                        <img src="./pizza.jpg" alt="" width="100" height="100">
+                        <h3 class="">Pizza House</h3>
+                      <a class="navbar-brand" href="#">File</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Edit</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">View</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- Header containing navbar -->
+            
+            <div class="row bodyPizza" style="color: black;">
+              
+              <div class="col-3">
+                <!-- veg-NonVeg Button -->
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-secondary active">
+                    <input type="radio" name="options" id="option1" checked> Veg
+                  </label>
+                  <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option2">  Non-Veg
+                  </label>
+                </div>
+                <!-- price slider -->
+                <form class="multi-range-field my-5">
+                  <h3>Price Range</h3>
+                  <input id="multi" class="multi-range" type="range" />
+                </form>
+                <!-- Pizza Base -->
+                <div class="dropdown pt-0 mt-1">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pizza Base
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Pizza Bagels</a></li>
+                    <li><a class="dropdown-item" href="#">Thin Crust</a></li>
+                    <li><a class="dropdown-item" href="#">Neapolitan Crust</a></li>
+                  </ul>
+                </div>
+                <!-- pizza type -->
+                <div class="dropdown mt-1">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    pizza Type
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Neapolitan Pizza</a></li>
+                    <li><a class="dropdown-item" href="#"> New York-Style Pizza</a></li>
+                    <li><a class="dropdown-item" href="#"> Detroit Pizza</a></li>
+                  </ul>
+                </div>
+
+
+
+              </div>
+              <div class="col-3">
+                <!-- card1 -->
+                <div class="card" style="width: 18rem;">
+                  <img src="./card1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Superman Pizza</h5>
+                    <p class="card-text">
+                      <ul>
+                        <li>Thin crust</li>
+                        <li>Cheese Burst</li>
+                        <li>Non Veg</li>
+                      </ul>
+                    </p>
+                    <a href="#" class="btn btn-secondary">Add</a>
+                  </div>
+                </div>
+                </div>
+                <!-- card2 -->
+                <div class="col-3">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./card1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Batman Pizza</h5>
+                      <p class="card-text">
+                        <ul>
+                          <li>Thin toasted crust</li>
+                          <li>regular cheese</li>
+                          <li>Veg</li>
+                        </ul>
+                      </p>
+                      <a href="#" class="btn btn-secondary">Add</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- card3 -->
+                <div class="col-3">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./card1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Spiderman Pizza</h5>
+                      <p class="card-text">
+                        <ul>
+                          <li>Regular Crust</li>
+                          <li>cheese topping</li>
+                          <li>veg</li>
+                        </ul>
+                      </p>
+                      <a href="#" class="btn btn-secondary">Add</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- footer -->
+                <div class="container-fluid1 pb-0 mb-0 justify-content-center text-light ">
+                  <footer>
+                      <div class="row my-5 justify-content-center py-5">
+                          <div class="col-11">
+                              <div class="row ">
+                                  <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+                                      <h3 class="text-muted mb-md-0 mb-5 bold-text">Pizza House</h3>
+                                  </div>
+                                  <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                                      <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
+                                      <ul class="list-unstyled">
+                                          <li>Home</li>
+                                          <li>About</li>
+                                          <li>Blog</li>
+                                          <li>Contact us</li>
+                                      </ul>
+                                  </div>
+                                  <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                                      <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
+                                      <p class="mb-1">605, Royal Road</p>
+                                      <p>Jorhat Assam</p>
+                                  </div>
+                              </div>
+                              <div class="row ">
+                                  <div class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+                                      <p class="social text-muted mb-0 pb-0 bold-text"> <span class="mx-2"><i class="fa fa-facebook" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"></i></span> </p><small class="rights"><span>&#174;</span> Pizza House All Rights Reserved.</small>
+                                  </div>
+                                  <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
+                                      <h6 class="mt-55 mt-2 text-muted bold-text"><b>Saket Kumar Jha</b></h6><small> <span><i class="fa fa-envelope" aria-hidden="true"></i></span> callmesaket@gmail.com</small>
+                                  </div>
+                                  <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
+                                      <h6 class="text-muted bold-text"><b>Saket Kumar Jha</b></h6><small><span><i class="fa fa-envelope" aria-hidden="true"></i></span> saketkumar9085@gmail.com</small>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </footer>
+              </div>
+            </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
